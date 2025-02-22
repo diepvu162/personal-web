@@ -1,0 +1,62 @@
+/* Căn giữa form */
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form-wrapper {
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* Style chung cho input và textarea */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Style phần liên hệ */
+.contact-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-links .btn-outline {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    transition: background 0.3s;
+}
+
+.contact-links .btn-outline:hover {
+    background: #ddd;
+}

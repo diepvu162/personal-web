@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+        <h4>Tôi yêu tin học</h4>
+        <input type="text" class="search" placeholder="Tìm kiếm...">
+    </header>
+
+
+    <div class="banner">
+        <h2>Cùng học tin học với cô Ngọc Điệp Vũ</h2>
+        <p>Trang web này là nơi chia sẻ kiến thức tin học từ cơ bản đến nâng cao, giúp bạn học tập và phát triển kỹ năng
+            công nghệ một cách hiệu quả.</p>
+    </div>
+    
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a>Giới thiệu</a>
+                <ul>
+                    <li><a href="about.html">Giáo viên</a></li>
+                    <li><a href="#">Môn học</a></li>
+                </ul>
+            </li>
+            <li><a>Phương pháp dạy học</a>
+                <ul>
+                    <li><a href="project-based-learning.html">Phương pháp dạy học dự án</a></li>
+                    <li><a href="#">Phương pháp dạy học giải quyết vấn đề</a></li>
+                    <li><a href="#">Phương pháp dạy học thực hành</a></li>
+                    <li><a href="#">Phương pháp dạy học trò chơi</a></li>
+                </ul>
+            </li>
+            <li><a>Bài giảng</a>
+                <ul>
+                    <li><a href="#">Tin Khối 10</a></li>
+                    <li><a href="#">Tin Khối 11</a></li>
+                    <li><a href="#">Tin Khối 12</a></li>
+                    <li><a href="#">MOS Word</a></li>
+                    <li><a href="#">MOS Excel</a></li>
+                    <li><a href="#">MOS PowerPoint</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Kinh nghiệm</a></li>
+            <li><a href="#">Giải trí</a></li>
+            <li><a href="contact.html" class="active">Liên hệ</a></li>
+        </ul>
+    </nav>
+
+    <main class="content">
+        <h2 class="center">Liên Hệ Với Tôi</h2>
+        <p class="center">Nếu bạn có bất kỳ câu hỏi nào, hãy điền vào biểu mẫu dưới đây và tôi sẽ liên hệ lại sớm
+            nhất có thể.</p>
+
+        <div class="container">
+            <div class="form-wrapper">
+                <form action="mailto:ngocdiep.hht@gmail.com" method="POST" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Họ và tên</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email của bạn</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Nội dung tin nhắn</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Gửi tin nhắn</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="contact-links">
+            <p>Hoặc liên hệ qua:</p>
+            <a href="tel:+84123456789" class="btn">
+                📞 Gọi điện
+            </a>
+            <a href="mailto:ngocdiep.hht@gmail.com" class="btn">
+                ✉️ Gửi Email
+            </a>
+        </div>
+            
+    </main>
+    
+    <footer class="footer">
+        <div class="left">
+            <h5>Tôi yêu tin học</h5>
+            <p class="mb-1">Trường THPT Ten Lơ Man</p>
+            <p class="mb-1">Địa chỉ: 8 Đ. Trần Hưng Đạo, Phường Phạm Ngũ Lão, Quận 1, Hồ Chí Minh</p>
+            <p>Email: ngocdiep.hht@gmail.com</p>
+        </div>
+        <div class="right">
+            <h5 style="margin-bottom: 10px;">Kết nối với chúng tôi</h5>
+            <a href="#" class="text-white me-3">
+                <img src="images/facebook.png" alt="facebook">
+            </a>
+            <a href="#" class="text-white me-3">
+                <img src="images/zalo.svg" alt="zalo">
+            </a>
+            <a href="#" class="text-white me-3">
+                <img src="images/instagram.png" alt="instagram">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
